@@ -5,6 +5,15 @@
 **/[Bb]in/
 **/[Bb]uild/
 
+# output files
+*.o
+*.exe
+*.ini
+*.log
+*.dll
+*.so
+*.d
+
 # vscode
 .vscode
 .vs
