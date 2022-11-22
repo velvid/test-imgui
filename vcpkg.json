@@ -1,0 +1,12 @@
+{
+	"name": "imguitest",
+	"version": "1.0",
+	"dependencies": [
+		"glad",
+        "glfw3",
+		{
+			"name": "imgui",
+			"features": [ "glfw-binding", "opengl3-binding" ]
+		}
+	]
+}
