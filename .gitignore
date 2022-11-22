@@ -1,0 +1,13 @@
+# temporary files
+~*
+
+# build folders
+**/[Bb]in/
+**/[Bb]uild/
+
+# vscode
+.vscode
+.vs
+
+# MAC
+.DS_Store
