@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.24)
+cmake_minimum_required (VERSION 3.23)
 
 project(ImGui-Test)
 
@@ -19,3 +19,6 @@ target_link_libraries(${PROJECT_NAME} PRIVATE glfw)
 
 find_package(imgui CONFIG REQUIRED)
 target_link_libraries(${PROJECT_NAME} PRIVATE imgui::imgui)
+
+find_package(OpenGL REQUIRED)
+target_link_libraries(${PROJECT_NAME} PRIVATE OpenGL::GL)
